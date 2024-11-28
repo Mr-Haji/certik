@@ -141,8 +141,8 @@ import {
     TextField
 } from '@mui/material';
 import { Search as SearchIcon, LanguageOutlined, ArrowDropDown } from '@mui/icons-material';
-import Logo from "../../assets/Logo.svg";
-import ResponseIcon from "../../assets/ResponseIcon.svg";
+import Logo from "../../assets/pics/Logo.svg";
+import ResponseIcon from "../../assets/pics/ResponseIcon.svg";
 
 // Styled Components
 const StyledInputBase = styled(TextField)(({ theme }) => ({

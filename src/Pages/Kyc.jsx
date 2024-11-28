@@ -1,19 +1,19 @@
 import { Button, Grid2 as Grid, Typography } from '@mui/material';
 import React from 'react';
-import SkynetScanCode from "../assets/skynet-scan-code.svg"
-import SkynetDetectRisk from "../assets/skynet-detect-risk.svg"
-import SkynetAccessData from "../assets/skynet-access-data.svg"
-import productKyc from "../assets/productKyc.avif"
-import producBuildTransparency from "../assets/producBuildTransparency.svg"
-import productEstablishCredibility from "../assets/productEstablishCredibility.svg"
-import productLeverageKYC from "../assets/productLeverageKYC.svg"
-import CertiKKYCProcess from "../assets/CertiKKYCProcess.png"
-import productTrustedProvider from "../assets/productTrustedProvider.svg"
-import productExperiencedInvestigators from "../assets/productExperiencedInvestigators.svg"
-import productSecureProcess from "../assets/productSecureProcess.svg"
-import productKYCBadgeCompletion from "../assets/productKYCBadgeCompletion.svg"
-import productProveIdentity from "../assets/productProveIdentity.svg"
-import KYC1080p from "../assets/KYC1080p.mp4"
+import SkynetScanCode from "../assets/pics/skynet-scan-code.svg"
+import SkynetDetectRisk from "../assets/pics/skynet-detect-risk.svg"
+import SkynetAccessData from "../assets/pics/skynet-access-data.svg"
+import productKyc from "../assets/pics/productKyc.avif"
+import producBuildTransparency from "../assets/pics/producBuildTransparency.svg"
+import productEstablishCredibility from "../assets/pics/productEstablishCredibility.svg"
+import productLeverageKYC from "../assets/pics/productLeverageKYC.svg"
+import CertiKKYCProcess from "../assets/pics/CertiKKYCProcess.png"
+import productTrustedProvider from "../assets/pics/productTrustedProvider.svg"
+import productExperiencedInvestigators from "../assets/pics/productExperiencedInvestigators.svg"
+import productSecureProcess from "../assets/pics/productSecureProcess.svg"
+import productKYCBadgeCompletion from "../assets/pics/productKYCBadgeCompletion.svg"
+import productProveIdentity from "../assets/pics/productProveIdentity.svg"
+import KYC1080p from "../assets/pics/KYC1080p.mp4"
 const Kyc = () => {
     return (
         <>

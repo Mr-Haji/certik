@@ -1,22 +1,13 @@
 import { Button, Grid2 as Grid, Typography } from '@mui/material';
 import React from 'react';
-import HeaderPic from "../assets/smartContractAudit.webp"
-import AccurateFindings from "../assets/accurate-findings.svg"
-import UnparalleledFlexibility from "../assets/unparalleled-flexibility.svg"
-import SkynetScanCode from "../assets/skynet-scan-code.svg"
-import SkynetDetectRisk from "../assets/skynet-detect-risk.svg"
-import SkynetAccessData from "../assets/skynet-access-data.svg"
-import ActionableInsights from "../assets/actionable-insights.svg"
-import advantagesEn from "../assets/advantagesEn.webp"
-import smartContractAudit2 from "../assets/smartContractAudit2.webp"
-import processEn from "../assets/processEn.webp"
-import stepsEn from "../assets/stepsEn.webp"
-import auditReport from "../assets/auditReport.webp"
-import experience from "../assets/experience.png"
-import SkynetScreenshot from "../assets/SkynetScreenshot.avif"
-import ProductSkynetLeaderboardScreenshot from "../assets/ProductSkynetLeaderboardScreenshot.avif"
-import ProductSkynetSecurityDataTools from "../assets/ProductSkynetSecurityDataTools.avif"
-// import SkynetScreenshot from "../assets/SkynetScreenshot.png"
+import HeaderPic from "../assets/pics/smartContractAudit.webp"
+import SkynetScanCode from "../assets/pics/skynet-scan-code.svg"
+import SkynetDetectRisk from "../assets/pics/skynet-detect-risk.svg"
+import SkynetAccessData from "../assets/pics/skynet-access-data.svg"
+import SkynetScreenshot from "../assets/pics/SkynetScreenshot.avif"
+import ProductSkynetLeaderboardScreenshot from "../assets/pics/ProductSkynetLeaderboardScreenshot.avif"
+import ProductSkynetSecurityDataTools from "../assets/pics/ProductSkynetSecurityDataTools.avif"
+
 const Skynet = () => {
     return (
         <>

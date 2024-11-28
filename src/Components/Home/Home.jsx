@@ -2,7 +2,7 @@ import { TextFieldsOutlined } from '@mui/icons-material';
 import { Button, Grid, Typography, TextField, Grid2 } from '@mui/material';
 import React from 'react';
 import { Search as SearchIcon } from '@mui/icons-material';
-import smartContractAudit from '../../assets/smart-contracts-graphic.webp';
+import smartContractAudit from '../../assets/pics/smart-contracts-graphic.webp';
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {

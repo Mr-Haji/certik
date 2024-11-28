@@ -1,15 +1,14 @@
 import { Button, Grid2 as Grid, Typography } from '@mui/material';
 import React from 'react';
-import HeaderPic from "../assets/smartContractAudit.webp"
-import AccurateFindings from "../assets/accurate-findings.svg"
-import UnparalleledFlexibility from "../assets/unparalleled-flexibility.svg"
-import ActionableInsights from "../assets/actionable-insights.svg"
-import advantagesEn from "../assets/advantagesEn.webp"
-import smartContractAudit2 from "../assets/smartContractAudit2.webp"
-import processEn from "../assets/processEn.webp"
-import stepsEn from "../assets/stepsEn.webp"
-import auditReport from "../assets/auditReport.webp"
-import experience from "../assets/experience.png"
+import HeaderPic from "../assets/pics/smartContractAudit.webp"
+import AccurateFindings from "../assets/pics/accurate-findings.svg"
+import UnparalleledFlexibility from "../assets/pics/unparalleled-flexibility.svg"
+import ActionableInsights from "../assets/pics/actionable-insights.svg"
+import advantagesEn from "../assets/pics/advantagesEn.webp"
+import processEn from "../assets/pics/processEn.webp"
+import stepsEn from "../assets/pics/stepsEn.webp"
+import auditReport from "../assets/pics/auditReport.webp"
+import experience from "../assets/pics/experience.png"
 const L1ChainAudit = () => {
     return (
         <>
