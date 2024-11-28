@@ -3,11 +3,25 @@ import { Button, Grid, Typography, TextField, Grid2 } from '@mui/material';
 import React from 'react';
 import { Search as SearchIcon } from '@mui/icons-material';
 import smartContractAudit from '../../assets/smart-contracts-graphic.webp';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+  const navigate = useNavigate()
   return (
     <>
       {/* Hero Section */}
+      <Button onClick={()=>navigate('/Smart-Audit-Contract')}>smart-contract-audit</Button>
+      <Button onClick={()=>navigate('/L1-Chain-Audit')}>l1-chain-audit</Button>
+      <Button onClick={()=>navigate('/sky-net')}>skynet</Button>
+      <Button onClick={()=>navigate('/Security-Store')}>security-score</Button>
+      <Button onClick={()=>navigate('/Pen-test')}>pentest</Button>
+      <Button onClick={()=>navigate('/sky-node')}>skynode</Button>
+      <Button onClick={()=>navigate('/skyinsights')}>skyinsights</Button>
+      <Button onClick={()=>navigate('/Kyc')}>kyc</Button>
+      <Button onClick={()=>navigate('/bug-bounty')}>bug-bounty</Button>
+      <Button onClick={()=>navigate('/Incident-Response')}>incident-response</Button>
+      <Button onClick={()=>navigate('/advisory')}>advisory</Button>
+      <Button onClick={()=>navigate('/formal-verification')}>formal-verification</Button>
       <Grid2 container spacing={4} sx={{ px: 2, py: 4 }} alignItems="center" justifyContent={"center"}>
         {/* Left Section */}
         <Grid2 xs={12} md={6} sx={{ width: '50%', p: 2 }}>
@@ -409,7 +423,7 @@ const Home = () => {
 
       </Grid2>
       {/* Banner Section */}
-      <Grid2 container  sx={{ justifyContent: 'center', alignItems: 'center' }}>
+      <Grid2 container sx={{ justifyContent: 'center', alignItems: 'center' }}>
         <Grid2
           xs={12}
           sm={4}
