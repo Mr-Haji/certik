@@ -352,7 +352,7 @@ const SmartAuditContract = () => {
               </Grid>
             </Grid>
             <Grid size={{ xs: 12, md: 6 }}>
-              <img src={smartContractAudit2} alt="Smart Contract Audit" style={{ width: '100%' }} />
+              {/* <img src={smartContractAudit2} alt="Smart Contract Audit" style={{ width: '100%' }} /> */}
 
             </Grid>
 
