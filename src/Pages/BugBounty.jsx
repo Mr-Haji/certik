@@ -1,15 +1,5 @@
 import { Button, Grid2 as Grid, Typography } from '@mui/material';
 import React from 'react';
-import HeaderPic from "../../public/assets/smartContractAudit.webp"
-import AccurateFindings from "../../public/assets/accurate-findings.svg"
-import UnparalleledFlexibility from "../../public/assets/unparalleled-flexibility.svg"
-import ActionableInsights from "../../public/assets/actionable-insights.svg"
-import advantagesEn from "../../public/assets/advantagesEn.webp"
-import smartContractAudit2 from "../../public/assets/smartContractAudit2.webp"
-import processEn from "../../public/assets/processEn.webp"
-import stepsEn from "../../public/assets/stepsEn.webp"
-import auditReport from "../../public/assets/auditReport.webp"
-import experience from "../../public/assets/experience.png"
 import productBugBounty from "../../public/assets/productBugBounty.avif"
 import productBugBountyNoFee from "../../public/assets/productBugBountyNoFee.svg"
 import productBugBountyHackers from "../../public/assets/productBugBountyHackers.svg"

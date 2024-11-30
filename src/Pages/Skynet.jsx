@@ -1,6 +1,6 @@
 import { Button, Grid2 as Grid, Typography } from '@mui/material';
 import React from 'react';
-import HeaderPic from "../../public/assets/smartContractAudit.webp"
+// import HeaderPic from "../../public/assets/smartContractAudit.webp"
 import SkynetScanCode from "../../public/assets/skynet-scan-code.svg"
 import SkynetDetectRisk from "../../public/assets/skynet-detect-risk.svg"
 import SkynetAccessData from "../../public/assets/skynet-access-data.svg"
@@ -61,7 +61,7 @@ const Skynet = () => {
 
                         </Grid>
                         <Grid size={{ xs: 12, md: 6 }}>
-                            <img src={HeaderPic} alt="Smart Contract Audit" style={{ width: '100%' }} />
+                            <img src={"assets/smartContractAudit.webp"} alt="Smart Contract Audit" style={{ width: '100%' }} />
 
                         </Grid>
                     </Grid>

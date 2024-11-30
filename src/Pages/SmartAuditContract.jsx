@@ -1,14 +1,14 @@
 import { Button, Grid2 as Grid, Typography } from '@mui/material';
 import React from 'react';
-import HeaderPic from "../../public/assets/smartContractAudit.webp"
+// import HeaderPic from "../../public/assets/smartContractAudit.webp"
 import AccurateFindings from "../../public/assets/accurate-findings.svg"
 import UnparalleledFlexibility from "../../public/assets/unparalleled-flexibility.svg"
 import ActionableInsights from "../../public/assets/actionable-insights.svg"
-import advantagesEn from "../../public/assets/advantagesEn.webp"
-import smartContractAudit2 from "../../public/assets/smartContractAudit2.webp"
-import processEn from "../../public/assets/processEn.webp"
-import stepsEn from "../../public/assets/stepsEn.webp"
-import auditReport from "../../public/assets/auditReport.webp"
+// import advantagesEn from "../../public/assets/advantagesEn.webp"
+// import smartContractAudit2 from "../../public/assets/smartContractAudit2.webp"
+// import processEn from "../../public/assets/processEn.webp"
+// import stepsEn from "../../public/assets/stepsEn.webp"
+// import auditReport from "../../public/assets/auditReport.webp"
 import experience from "../../public/assets/experience.png"
 const SmartAuditContract = () => {
   return (
@@ -46,7 +46,7 @@ const SmartAuditContract = () => {
 
             </Grid>
             <Grid size={{ xs: 12, md: 6 }}>
-              <img src={HeaderPic} alt="Smart Contract Audit" style={{ width: '100%' }} />
+              <img src={"assets/smartContractAudit.webp"} alt="Smart Contract Audit" style={{ width: '100%' }} />
 
             </Grid>
           </Grid>
@@ -271,7 +271,7 @@ const SmartAuditContract = () => {
           {/* Section 5 */}
           <Grid container size={12}>
             <Grid size={{ xs: 12, md: 6 }}>
-              <img src={advantagesEn} alt="Advantages En" style={{ width: '100%' }} />
+              <img src={"assets/advantagesEn.webp"} alt="Advantages En" style={{ width: '100%' }} />
 
             </Grid>
 
@@ -351,7 +351,7 @@ const SmartAuditContract = () => {
               </Grid>
             </Grid>
             <Grid size={{ xs: 12, md: 6 }}>
-              <img src={smartContractAudit2} alt="Smart Contract Audit" style={{ width: '100%' }} />
+              <img src={"assets/smartContractAudit2.webp"} alt="Smart Contract Audit" style={{ width: '100%' }} />
 
             </Grid>
 
@@ -366,7 +366,7 @@ const SmartAuditContract = () => {
 
             </Grid>
             <Grid size={{ xs: 12, md: 10 }} m='auto'>
-              <img src={processEn} alt='Process En' style={{ width: '100%' }} />
+              <img src={"assets/processEn.webp"} alt='Process En' style={{ width: '100%' }} />
             </Grid>
           </Grid>
 
@@ -384,7 +384,7 @@ const SmartAuditContract = () => {
               </Grid>
             </Grid>
             <Grid>
-              <img src={stepsEn} alt="Steps En" style={{ width: '100%' }} />
+              <img src={"assets/stepsEn.webp"} alt="Steps En" style={{ width: '100%' }} />
 
             </Grid>
           </Grid>
@@ -392,7 +392,7 @@ const SmartAuditContract = () => {
           {/* Section 10 */}
           <Grid container size={12}>
             <Grid size={{ xs: 12, md: 6 }}>
-              <img src={auditReport} alt="Audit Report" style={{ width: '100%' }} />
+              <img src={"assets/auditReport.webp"} alt="Audit Report" style={{ width: '100%' }} />
 
             </Grid>
             <Grid container spacing={2} size={{ xs: 12, md: 6 }}>
