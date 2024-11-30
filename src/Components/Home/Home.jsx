@@ -1,46 +1,31 @@
 import { ArrowRightAlt, TextFieldsOutlined } from '@mui/icons-material';
 import { Button, Typography, TextField, Grid2 as Grid } from '@mui/material';
 import React from 'react';
-import { Search as SearchIcon } from '@mui/icons-material';
-import smartContractAudit from '../../assets/pics/smart-contracts-graphic.webp';
-import skyInsightsBanner from '../../assets/skyInsightsBanner.webp';
-import HomeTabel from '../../assets/pics/HomeTabel.png';
-import xrpl from '../../assets/xrpl.svg';
-import wemix from '../../assets/wemix.svg';
-import keep from '../../assets/keep.svg';
-import kaia from '../../assets/kaia.svg';
-import smartContractsGraphic from '../../assets/smartContractsGraphic.webp';
-import walletsGraphic from '../../assets/walletsGraphic.webp';
-import blockchainsGraphic from '../../assets/blockchainsGraphic.webp';
-import exsat from '../../assets/exsat.svg';
-import bnb from '../../assets/bnb.svg';
-import ventures8 from '../../assets/ventures8.svg';
-import formalVerification7 from '../../assets/formalVerification7.svg';
-import penTest6 from '../../assets/penTest6.svg';
-import menuSkynode5 from '../../assets/menuSkynode5.svg';
-import skyInsights4 from '../../assets/skyInsights4.svg';
-import bugBounty3 from '../../assets/bugBounty3.svg';
-import kyc2 from '../../assets/kyc2.svg';
-import skynet1 from '../../assets/skynet1.svg';
+import smartContractAudit from '../../Pics/smart-contracts-graphic.webp';
+import skyInsightsBanner from '../../Pics/skyInsightsBanner.webp';
+import HomeTabel from '../../Pics/HomeTabel.png';
+import xrpl from '../../Pics/xrpl.svg';
+import wemix from '../../Pics/wemix.svg';
+import keep from '../../Pics/keep.svg';
+import kaia from '../../Pics/kaia.svg';
+import smartContractsGraphic from '../../Pics/smartContractsGraphic.webp';
+import walletsGraphic from '../../Pics/walletsGraphic.webp';
+import blockchainsGraphic from '../../Pics/blockchainsGraphic.webp';
+import exsat from '../../Pics/exsat.svg';
+import bnb from '../../Pics/bnb.svg';
+import ventures8 from '../../Pics/ventures8.svg';
+import formalVerification7 from '../../Pics/formalVerification7.svg';
+import penTest6 from '../../Pics/penTest6.svg';
+import menuSkynode5 from '../../Pics/menuSkynode5.svg';
+import skyInsights4 from '../../Pics/skyInsights4.svg';
+import bugBounty3 from '../../Pics/bugBounty3.svg';
+import kyc2 from '../../Pics/kyc2.svg';
+import skynet1 from '../../Pics/skynet1.svg';
 import { useNavigate } from 'react-router-dom';
 import CarouselComponent from '../Common/Carousel';
 
 const Home = () => {
-  const navigate = useNavigate()
 
-
-  // <Button onClick={()=>navigate('/Smart-Audit-Contract')}>smart-contract-audit</Button>
-  // <Button onClick={()=>navigate('/L1-Chain-Audit')}>l1-chain-audit</Button>
-  // <Button onClick={()=>navigate('/sky-net')}>skynet</Button>
-  // <Button onClick={()=>navigate('/Security-Store')}>security-score</Button>
-  // <Button onClick={()=>navigate('/Pen-test')}>pentest</Button>
-  // <Button onClick={()=>navigate('/sky-node')}>skynode</Button>
-  // <Button onClick={()=>navigate('/skyinsights')}>skyinsights</Button>
-  // <Button onClick={()=>navigate('/Kyc')}>kyc</Button>
-  // <Button onClick={()=>navigate('/bug-bounty')}>bug-bounty</Button>
-  // <Button onClick={()=>navigate('/Incident-Response')}>incident-response</Button>
-  // <Button onClick={()=>navigate('/advisory')}>advisory</Button>
-  // <Button onClick={()=>navigate('/formal-verification')}>formal-verification</Button>
 
 
 

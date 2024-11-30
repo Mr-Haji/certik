@@ -1,12 +1,12 @@
 import { Button, Grid2 as Grid, Typography } from '@mui/material';
 import React from 'react';
-import HeaderPic from "../assets/pics/smartContractAudit.webp"
-import SkynetScanCode from "../assets/pics/skynet-scan-code.svg"
-import SkynetDetectRisk from "../assets/pics/skynet-detect-risk.svg"
-import SkynetAccessData from "../assets/pics/skynet-access-data.svg"
-import SkynetScreenshot from "../assets/pics/SkynetScreenshot.avif"
-import ProductSkynetLeaderboardScreenshot from "../assets/pics/ProductSkynetLeaderboardScreenshot.avif"
-import ProductSkynetSecurityDataTools from "../assets/pics/ProductSkynetSecurityDataTools.avif"
+import HeaderPic from "../Pics//smartContractAudit.webp"
+import SkynetScanCode from "../Pics//skynet-scan-code.svg"
+import SkynetDetectRisk from "../Pics//skynet-detect-risk.svg"
+import SkynetAccessData from "../Pics//skynet-access-data.svg"
+import SkynetScreenshot from "../Pics//SkynetScreenshot.avif"
+import ProductSkynetLeaderboardScreenshot from "../Pics//ProductSkynetLeaderboardScreenshot.avif"
+import ProductSkynetSecurityDataTools from "../Pics//ProductSkynetSecurityDataTools.avif"
 
 const Skynet = () => {
     return (

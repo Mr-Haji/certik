@@ -10,16 +10,16 @@ import CategoryCard from "./CategoryCard.jsx"; // Ensure this component is imple
 import { useNavigate } from "react-router-dom"; // Used for navigation (if needed)
 
 // Importing images
-import LogoAntGroup from "../../assets/LogoAntGroup.png";
-import LogoLine from "../../assets/LogoLine.png";
-import LogoOkx from "../../assets/LogoOkx.png";
-import LogoDelphinusLab from "../../assets/LogoDelphinusLab.png";
-import LogoApple from "../../assets/LogoApple.png";
-import LogoSui from "../../assets/LogoSui.png";
-import LogoTon from "../../assets/LogoTon.png";
-import LogoSei from "../../assets/LogoSei.png";
-import LogoSamsung from "../../assets/LogoSamsung.png";
-import LogoRipple from "../../assets/LogoRipple.png";
+import LogoAntGroup from "../../Pics/LogoAntGroup.png";
+import LogoLine from "../../Pics/LogoLine.png";
+import LogoOkx from "../../Pics/LogoOkx.png";
+import LogoDelphinusLab from "../../Pics/LogoDelphinusLab.png";
+import LogoApple from "../../Pics/LogoApple.png";
+import LogoSui from "../../Pics/LogoSui.png";
+import LogoTon from "../../Pics/LogoTon.png";
+import LogoSei from "../../Pics/LogoSei.png";
+import LogoSamsung from "../../Pics/LogoSamsung.png";
+import LogoRipple from "../../Pics/LogoRipple.png";
 
 // Slider Data
 const SlidesData = [

@@ -1,13 +1,13 @@
 import { Button, Grid2 as Grid, Typography } from '@mui/material';
 import React from 'react';
-import SkynetScanCode from "../assets/pics/skynet-scan-code.svg"
-import SkynetDetectRisk from "../assets/pics/skynet-detect-risk.svg"
-import SkynetAccessData from "../assets/pics/skynet-access-data.svg"
-import productTechnicalDueDiligence from "../assets/pics/productTechnicalDueDiligence.svg"
-import productSecurityResearch from "../assets/pics/productSecurityResearch.svg"
-import productWeb3Strategy from "../assets/pics/productWeb3Strategy.svg"
-import cryptoDueDiligenceFrameworks from "../assets/pics/cryptoDueDiligenceFrameworks.svg"
-import productCryptoDueDiligence from "../assets/pics/productCryptoDueDiligence.avif"
+import SkynetScanCode from "../pics/skynet-scan-code.svg"
+import SkynetDetectRisk from "../pics/skynet-detect-risk.svg"
+import SkynetAccessData from "../pics/skynet-access-data.svg"
+import productTechnicalDueDiligence from "../pics/productTechnicalDueDiligence.svg"
+import productSecurityResearch from "../pics/productSecurityResearch.svg"
+import productWeb3Strategy from "../pics/productWeb3Strategy.svg"
+import cryptoDueDiligenceFrameworks from "../pics/cryptoDueDiligenceFrameworks.svg"
+import productCryptoDueDiligence from "../pics/productCryptoDueDiligence.avif"
 const Advisory = () => {
     return (
         <>
@@ -76,7 +76,7 @@ const Advisory = () => {
                                 <Grid size={12}>
                                     <Typography fontWeight="bold">
 
-                                        Comprehensive technical evaluations of Web3 projects and digital assets ensure they meet the rigorous security standards required by institutional investors, hedge funds, venture capital firms, and more.
+                                        Comprehensive technical evaluations of Web3 projects and digital ensure they meet the rigorous security standards required by institutional investors, hedge funds, venture capital firms, and more.
                                     </Typography>
                                 </Grid>
 

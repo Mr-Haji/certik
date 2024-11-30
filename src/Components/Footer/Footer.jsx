@@ -1,6 +1,6 @@
 import { Grid, Stack, Typography } from '@mui/material';
 import React from 'react';
-import Logo from "../../assets/pics/Logo.svg";
+import Logo from "../../Pics/Logo.svg";
 
 const Footer = () => {
     const products = [

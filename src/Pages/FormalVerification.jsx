@@ -1,17 +1,17 @@
 import { Button, Grid2 as Grid, Typography } from '@mui/material';
 import React from 'react';
-import coverage from "../assets/pics/coverage.svg"
-import precision from "../assets/pics/precision.svg"
-import scale from "../assets/pics/scale.svg"
-import header2 from "../assets/pics/header2.webp"
-import whyCertik from "../assets/pics/whyCertik.svg"
-import cosmos from "../assets/pics/cosmos.png"
-import antGroup from "../assets/pics/antGroup.png"
-import A100 from "../assets/pics/100.svg"
-import A95 from "../assets/pics/95.svg"
-import A90 from "../assets/pics/90.svg"
-import ton from "../assets/pics/ton.png"
-import delphinusLab from "../assets/pics/delphinusLab.png"
+import coverage from "../Pics/coverage.svg"
+import precision from "../Pics/precision.svg"
+import scale from "../Pics/scale.svg"
+import header2 from "../Pics/header2.webp"
+import whyCertik from "../Pics/whyCertik.svg"
+import cosmos from "../Pics/cosmos.png"
+import antGroup from "../Pics/antGroup.png"
+import A100 from "../Pics/100.svg"
+import A95 from "../Pics/95.svg"
+import A90 from "../Pics/90.svg"
+import ton from "../Pics/ton.png"
+import delphinusLab from "../Pics/delphinusLab.png"
 const FormalVerification = () => (
     <>
  <Grid sx={{ width: '100%', justifyContent: 'center', display: 'flex', }}>

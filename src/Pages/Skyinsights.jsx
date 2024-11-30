@@ -1,19 +1,19 @@
 import { Button, Grid2 as Grid, Typography } from '@mui/material';
 import React from 'react';
-import SkynetScanCode from "../assets/pics/skynet-scan-code.svg"
-import SkynetDetectRisk from "../assets/pics/skynet-detect-risk.svg"
-import SkynetAccessData from "../assets/pics/skynet-access-data.svg"
-import productTechnicalDueDiligence from "../assets/pics/productTechnicalDueDiligence.svg"
-import productSecurityResearch from "../assets/pics/productSecurityResearch.svg"
-import productWeb3Strategy from "../assets/pics/productWeb3Strategy.svg"
-import skyinsightsHero from "../assets/pics/skyinsightsHero.avif"
-import kya from "../assets/pics/kya.svg"
-import kyt from "../assets/pics/kyt.svg"
-import customizableCaseManagement from "../assets/pics/customizableCaseManagement.svg"
-import transactionFlowAnalysis from "../assets/pics/transactionFlowAnalysis.avif"
-import detailKeepAheadCurve from "../assets/pics/detailKeepAheadCurve.avif"
-import detailEvidence from "../assets/pics/detailEvidence.avif"
-import detailTxnMonitoring from "../assets/pics/detailTxnMonitoring.svg"
+import SkynetScanCode from "../Pics/skynet-scan-code.svg"
+import SkynetDetectRisk from "../Pics/skynet-detect-risk.svg"
+import SkynetAccessData from "../Pics/skynet-access-data.svg"
+import productTechnicalDueDiligence from "../Pics/productTechnicalDueDiligence.svg"
+import productSecurityResearch from "../Pics/productSecurityResearch.svg"
+import productWeb3Strategy from "../Pics/productWeb3Strategy.svg"
+import skyinsightsHero from "../Pics/skyinsightsHero.avif"
+import kya from "../Pics/kya.svg"
+import kyt from "../Pics/kyt.svg"
+import customizableCaseManagement from "../Pics/customizableCaseManagement.svg"
+import transactionFlowAnalysis from "../Pics/transactionFlowAnalysis.avif"
+import detailKeepAheadCurve from "../Pics/detailKeepAheadCurve.avif"
+import detailEvidence from "../Pics/detailEvidence.avif"
+import detailTxnMonitoring from "../Pics/detailTxnMonitoring.svg"
 const Skyinsights = () => {
     return (
         <>
