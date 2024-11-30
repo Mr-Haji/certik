@@ -17,9 +17,8 @@ import detailTxnMonitoring from "../assets/pics/detailTxnMonitoring.svg"
 const Skyinsights = () => {
     return (
         <>
-            <Grid sx={{ border: '1px solid black', bgcolor: 'pink', width: '100%', justifyContent: 'center', display: 'flex' }}>
-                <Grid container spacing={3} sx={{ border: '1px solid black', width: '80%' }}>
-
+ <Grid sx={{ width: '100%', justifyContent: 'center', display: 'flex', }}>
+ <Grid container spacing={3} sx={{ width: '80%', mb: 2 }}>
                     {/* Section 1 */}
 
                     <Grid container size={12} sx={{ border: '1px solid black', bgcolor: '#171921' }}>

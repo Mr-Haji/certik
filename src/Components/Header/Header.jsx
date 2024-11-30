@@ -119,16 +119,17 @@ import ResponseIcon from "../../assets/pics/ResponseIcon.svg";
 // export default Header;
 import React from "react";
 import { AppBar, Toolbar, Grid, Box, Button } from "@mui/material";
-import ProductsDropdown from "./ProductsDropdown"; // Import ProductsDropdown
-
+import ProductsDropdown from './ProductsDropDown';
+import { useNavigate } from 'react-router-dom';
 const Header = () => {
+    const navigate=useNavigate()
     return (
         <AppBar position="static" sx={{ bgcolor: "#171921" }}>
             <Toolbar>
                 <Grid container alignItems="center" spacing={2} sx={{ width: "100%" }}>
                     {/* Logo and Dropdowns */}
-                    <Grid item xs={6} sm={4} md={4}  container alignItems="center">
-                        <img src={Logo} alt="Logo" style={{ width: "150px", marginRight: "10px" }} />
+                    <Grid item xs={6} sm={4} md={4} sp container alignItems="center">
+                        <img onClick={() => navigate('/')} src={Logo} alt="Logo" style={{ width: "150px", marginRight: "10px" }} />
                         {/* Products Dropdown */}
                         <ProductsDropdown ProductName={"Products"} />
                         <ProductsDropdown ProductName={"Company"} />
@@ -169,7 +170,7 @@ const Header = () => {
                     <Grid item xs={6} sm={4} md={4} container alignItems="center" justifyContent="flex-end">
                         <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
                             <LanguageOutlined sx={{ fontSize: "24px", color: "white" }} />
-                            <img src="ResponseIcon.svg" alt="Response Icon" style={{ width: "24px" }} />
+                            <img src={ResponseIcon} alt="Response Icon" style={{ width: "24px" }} />
                         </Box>
                         <Box sx={{ ml: 2, display: { xs: "none", sm: "block" } }}>
                             <Button sx={{ color: "white" }}>Log In</Button>

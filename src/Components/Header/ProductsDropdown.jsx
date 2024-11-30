@@ -1,7 +1,4 @@
-// import React, { useState } from "react";
 import { Box, Typography, List, ListItem, ListItemText, Grid2 as Grid } from "@mui/material";
-import { ArrowDownward, ArrowUpward } from "@mui/icons-material";
-
 import { useState } from "react";
 import web3SecurityAudit from "../../assets/web3SecurityAudit.svg";
 import l1ChainAudit2 from "../../assets/l1ChainAudit2.svg";
@@ -13,7 +10,11 @@ import Four from "../../assets/Four.svg";
 import Five from "../../assets/Five.svg";
 import six from "../../assets/six.svg";
 import seven from "../../assets/seven.svg";
+import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import { useNavigate } from "react-router-dom";
 const ProductsDropdown = ({ ProductName }) => {
+    const navigate = useNavigate()
     const [isHovering, setIsHovering] = useState(false);
 
     const handleMouseEnter = () => {
@@ -45,7 +46,6 @@ const ProductsDropdown = ({ ProductName }) => {
                 }}
             >
                 <Grid size={12}>
-
                     <Typography color="grey" fontSize={"15px"} fontWeight={"bold"}>Product</Typography>
                 </Grid>
                 <Grid spacing={2} container>
@@ -59,12 +59,8 @@ const ProductsDropdown = ({ ProductName }) => {
                                 <Grid size={10}>
                                     <Typography fontSize={"18px"} fontWeight={"bold"}>Web3  Security  Audit</Typography>
                                 </Grid>
-
-
-
-
                             </Grid>
-                            <Grid ml={3} container size={12}>
+                            <Grid ml={3} onClick={() => navigate('/Smart-Audit-Contract')} container size={12}>
                                 <Grid size={2}>
                                     <img src={smartContractAudit2} alt="" style={{ width: "100%" }} />
                                 </Grid>
@@ -78,7 +74,7 @@ const ProductsDropdown = ({ ProductName }) => {
 
                             </Grid>
 
-                            <Grid ml={3} container size={12}>
+                            <Grid ml={3} onClick={() => navigate('/L1-Chain-Audit')} container size={12}>
                                 <Grid size={2}>
                                     <img src={l1ChainAudit2} alt="" style={{ width: "100%" }} />
                                 </Grid>
@@ -108,26 +104,21 @@ const ProductsDropdown = ({ ProductName }) => {
 
 
                             </Grid>
-                            <Grid ml={3} container size={12}>
+                            <Grid ml={3} onClick={() => navigate('/sky-net')} container size={12}>
                                 <Grid size={2}>
                                     <img src={smartContractAudit2} alt="" style={{ width: "100%" }} />
                                 </Grid>
-                                <Grid size={10}>
-                                    <Typography fontWeight={"bold"} fontSize={"12px"}>Samrt Contract Audit</Typography>
+                                <Grid onClick={() => navigate('/sky-net')} size={10}>
+                                    <Typography fontWeight={"bold"} fontSize={"12px"}>SkyNet</Typography>
                                     <Typography fontSize={"9px"}>Samrt Contract Audit Security Assesment</Typography>
                                 </Grid>
-
-
-
-
                             </Grid>
-
-                            <Grid ml={3} container size={12}>
+                            <Grid ml={3} container onClick={() => navigate('/Security-Store')} size={12}>
                                 <Grid size={2}>
                                     <img src={l1ChainAudit2} alt="" style={{ width: "100%" }} />
                                 </Grid>
                                 <Grid size={10}>
-                                    <Typography fontWeight={"bold"} fontSize={"12px"}>L1 Chain Audit</Typography>
+                                    <Typography fontWeight={"bold"} fontSize={"12px"}>Security Score </Typography>
                                     <Typography fontSize={"9px"}>L1 Chain Audit Security Assesment</Typography>
                                 </Grid>
 
@@ -135,10 +126,9 @@ const ProductsDropdown = ({ ProductName }) => {
 
 
                             </Grid>
-
                         </Grid>
                         <Grid spacing={2} container >
-                            <Grid container size={12}>
+                            <Grid container onClick={() => navigate('/Pen-test')} size={12}>
                                 <Grid size={2}>
                                     <img src={web3SecurityAudit} alt="" style={{ width: "100%" }} />
                                 </Grid>
@@ -158,20 +148,16 @@ const ProductsDropdown = ({ ProductName }) => {
                     {/* Right Column: Featured Ecosystems */}
                     <Grid container spacing={2} size={6} color={"black"}>
                         <Grid spacing={2} container >
-                            <Grid container size={12}>
+                            <Grid container onClick={() => navigate('/sky-node')} size={12}>
                                 <Grid size={2}>
                                     <img src={One} alt="" style={{ width: "30px" }} />
                                 </Grid>
                                 <Grid size={10}>
-                                    <Typography  ml={2} fontSize={"18px"} fontWeight={"bold"}>Sky Node</Typography>
+                                    <Typography ml={2} fontSize={"18px"} fontWeight={"bold"}>Sky Node</Typography>
                                 </Grid>
-
-
-
-
                             </Grid>
                         </Grid>
-                        <Grid spacing={2} container >
+                        <Grid spacing={2} onClick={() => navigate('/skyinsights')} container >
                             <Grid container spacing={4} size={12}>
                                 <Grid size={2}>
                                     <img src={Two} alt="" style={{ width: "30px" }} />
@@ -179,19 +165,15 @@ const ProductsDropdown = ({ ProductName }) => {
                                 <Grid size={10}>
                                     <Typography ml={1} fontSize={"18px"} fontWeight={"bold"}>Sky Insights </Typography>
                                 </Grid>
-
-
-
-
                             </Grid>
                         </Grid>
-                        <Grid spacing={2} container >
-                            <Grid  container size={12}>
+                        <Grid spacing={2} onClick={() => navigate('/Kyc')} container >
+                            <Grid container size={12}>
                                 <Grid size={2}>
                                     <img src={Three} alt="" style={{ width: "30px" }} />
                                 </Grid>
                                 <Grid size={10}>
-                                    <Typography  ml={3} fontSize={"18px"} fontWeight={"bold"}>KYC </Typography>
+                                    <Typography ml={3} fontSize={"18px"} fontWeight={"bold"}>KYC </Typography>
                                 </Grid>
 
 
@@ -199,7 +181,7 @@ const ProductsDropdown = ({ ProductName }) => {
 
                             </Grid>
                         </Grid>
-                        <Grid spacing={2} container >
+                        <Grid spacing={2} onClick={() => navigate('/bug-bounty')} container >
                             <Grid container size={12}>
                                 <Grid size={2}>
                                     <img src={Four} alt="" style={{ width: "30px" }} />
@@ -213,7 +195,7 @@ const ProductsDropdown = ({ ProductName }) => {
 
                             </Grid>
                         </Grid>
-                        <Grid spacing={2} container >
+                        <Grid spacing={2} onClick={() => navigate('/Incident-Response')} container >
                             <Grid container spacing={4} size={12}>
                                 <Grid size={2}>
                                     <img src={Five} alt="" style={{ width: "30px" }} />
@@ -227,7 +209,7 @@ const ProductsDropdown = ({ ProductName }) => {
 
                             </Grid>
                         </Grid>
-                        <Grid spacing={2} container >
+                        <Grid spacing={2} onClick={() => navigate('/advisory')} container >
                             <Grid spacing={4} container size={12}>
                                 <Grid size={2}>
                                     <img src={six} alt="" style={{ width: "30px" }} />
@@ -241,7 +223,7 @@ const ProductsDropdown = ({ ProductName }) => {
 
                             </Grid>
                         </Grid>
-                        <Grid spacing={2} container >
+                        <Grid spacing={2} onClick={() => navigate('/formal-verification')} container >
                             <Grid spacing={4} container size={12}>
                                 <Grid size={2}>
                                     <img src={seven} alt="" style={{ width: "30px" }} />
@@ -340,7 +322,7 @@ const ProductsDropdown = ({ ProductName }) => {
                 }}
             >
                 {ProductName}
-                {isHovering ? <ArrowUpward /> : <ArrowDownward />}
+                {isHovering ? <ArrowDropUpIcon /> : <ArrowDropDownIcon />}
             </Typography>
 
             {/* Dropdown Content */}
