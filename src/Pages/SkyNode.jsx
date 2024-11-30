@@ -1,4 +1,4 @@
-import { Button, Grid2 as Grid, Typography } from '@mui/material';
+import { Grid2 as Grid, Typography } from '@mui/material';
 import React from 'react';
 import Section14 from "../../public/assets/Section14.svg"
 import Section11 from "../../public/assets/Section11.svg"
@@ -20,10 +20,9 @@ import bnb from "../../public/assets/bnb.svg"
 const SkyNode = () => {
     return (
         <>
-           <Grid sx={{ width: '100%', justifyContent: 'center', display: 'flex', }}>
-           <Grid container spacing={3} sx={{ width: '80%', mb: 2 }}>
+            <Grid sx={{ width: '100%', justifyContent: 'center', display: 'flex', }}>
+                <Grid container spacing={3} sx={{ width: '80%', mb: 2 }}>
                     {/* Section 1 */}
-
                     <Grid container size={12} sx={{ border: '1px solid black', bgcolor: '#171921' }}>
                         <Grid container size={{ xs: 12, md: 6 }} >
 
@@ -120,7 +119,6 @@ const SkyNode = () => {
                         </Grid>
 
                     </Grid>
-
                     {/* Secftion 3 */}
                     <Grid size={12}>
 
@@ -142,41 +140,39 @@ const SkyNode = () => {
 
 
                     </Grid>
-                     {/* Section 4 */}
-                     <Grid size={12}>
+                    {/* Section 4 */}
+                    <Grid size={12}>
 
-<Grid sx={{ textAlign: 'center' }} >
-    <Typography variant='h4' fontWeight={"bold"}>
-    Selected Validator Nodes
-    </Typography>
-</Grid>
-<Grid container  size={12} sx={{ display:'flex',justifyContent:'space-around', mt: 1 }} >
-    <Grid size={{ xs: 12, md:1}}>
-        <img src={bnb} alt='bnb' style={{width:'100%',height:'60px'}} />
-    </Grid>
-    <Grid size={{ xs: 12, md:1}}>
-        <img src={exsat} alt='exsat' style={{width:'100%',height:'60px'}} />
-    </Grid>
-    <Grid size={{ xs: 12, md:1}}>
-        <img src={kaia} alt='kaia' style={{width:'100%',height:'60px'}} />
-    </Grid>
-    <Grid size={{ xs: 12, md:1}}>
-        <img src={keep} alt='keep' style={{width:'100%',height:'60px'}} />
-    </Grid>
-    <Grid size={{ xs: 12, md:1}}>
-        <img src={wemix} alt='wemix' style={{width:'100%',height:'60px'}} />
-    </Grid>
-    <Grid size={{ xs: 12, md:1}}>
-        <img src={xrpl} alt='xrpl' style={{width:'100%',height:'60px'}} />
-    </Grid>
-  
-   
-</Grid>
+                        <Grid sx={{ textAlign: 'center' }} >
+                            <Typography variant='h4' fontWeight={"bold"}>
+                                Selected Validator Nodes
+                            </Typography>
+                        </Grid>
+                        <Grid container size={12} sx={{ display: 'flex', justifyContent: 'space-around', mt: 1 }} >
+                            <Grid size={{ xs: 12, md: 1 }}>
+                                <img src={bnb} alt='bnb' style={{ width: '100%', height: '60px' }} />
+                            </Grid>
+                            <Grid size={{ xs: 12, md: 1 }}>
+                                <img src={exsat} alt='exsat' style={{ width: '100%', height: '60px' }} />
+                            </Grid>
+                            <Grid size={{ xs: 12, md: 1 }}>
+                                <img src={kaia} alt='kaia' style={{ width: '100%', height: '60px' }} />
+                            </Grid>
+                            <Grid size={{ xs: 12, md: 1 }}>
+                                <img src={keep} alt='keep' style={{ width: '100%', height: '60px' }} />
+                            </Grid>
+                            <Grid size={{ xs: 12, md: 1 }}>
+                                <img src={wemix} alt='wemix' style={{ width: '100%', height: '60px' }} />
+                            </Grid>
+                            <Grid size={{ xs: 12, md: 1 }}>
+                                <img src={xrpl} alt='xrpl' style={{ width: '100%', height: '60px' }} />
+                            </Grid>
 
 
-</Grid>
+                        </Grid>
 
 
+                    </Grid>
                     {/* Secftion 5 */}
                     <Grid size={12}>
 
@@ -328,7 +324,7 @@ const SkyNode = () => {
 
                         <Grid sx={{ textAlign: 'center' }} >
                             <Typography variant='h4' fontWeight={"bold"}>
-                            Conclusion
+                                Conclusion
 
 
 
@@ -340,7 +336,7 @@ const SkyNode = () => {
                         }}>
 
                             <Typography textAlign={"center"} variant='h6'>
-By expanding into node operations, CertiK reinforces its commitment to fortifying the blockchain ecosystem. With an unwavering focus on security, performance, and transparency, we deliver node services designed to empower your blockchain operations with reliability and efficiency. Choose CertiK as your trusted partner to safeguard your network and lead the change toward a more decentralized and innovative future
+                                By expanding into node operations, CertiK reinforces its commitment to fortifying the blockchain ecosystem. With an unwavering focus on security, performance, and transparency, we deliver node services designed to empower your blockchain operations with reliability and efficiency. Choose CertiK as your trusted partner to safeguard your network and lead the change toward a more decentralized and innovative future
                             </Typography>
                         </Grid>
 

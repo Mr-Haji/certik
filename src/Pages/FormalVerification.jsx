@@ -17,7 +17,6 @@ const FormalVerification = () => (
  <Grid sx={{ width: '100%', justifyContent: 'center', display: 'flex', }}>
  <Grid container spacing={3} sx={{ width: '80%', mb: 2 }}>
                 {/* Section 1 */}
-
                 <Grid container size={12} sx={{ border: '1px solid black', bgcolor: '#171921' }}>
                     <Grid container size={{ xs: 12, md: 6 }}>
 
@@ -52,8 +51,7 @@ const FormalVerification = () => (
 
                     </Grid>
                 </Grid>
-
-                {/* s */}
+                {/* Section 2*/}
                 <Grid size={12}>
                     <Grid container>
                         <Grid size={{ xs: 12, md: 9 }}>
@@ -105,8 +103,7 @@ const FormalVerification = () => (
 
                     </Grid>
                 </Grid>
-
-                {/* Section 2 */}
+                {/* Section 3 */}
                 <Grid container size={12}>
                     <Grid container size={12}>
                         <Grid size={{ xs: 12, md: 6 }}>
@@ -218,9 +215,7 @@ const FormalVerification = () => (
 
                     </Grid>
                 </Grid>
-
-
-                {/* s */}
+                {/* Section  6 */}
                 <Grid size={12}>
                     <Grid spacing={1} container size={12}>
                         <Grid size={{ xs: 12, md: 4 }} sx={{ boxShadow:"0px 5px 9px white", borderRadius: '10px', p: 2, textAlign: 'center' }}>
@@ -264,8 +259,7 @@ const FormalVerification = () => (
 
                     </Grid>
                 </Grid>
-
-                {/* Section 6*/}
+                {/* Section 7*/}
                 <Grid container size={12}>
 
 
@@ -285,10 +279,7 @@ const FormalVerification = () => (
 
                     </Grid>
                 </Grid>
-
-
-                {/* Section 6*/}
-
+               {/* Section 8*/}
                 <Grid size={12} container textAlign={'center'}>
                     <Grid size={12}>
                         <Typography variant='h3' fontWeight={"bold"}>Benefits of CertiK Custom Formal Verification
@@ -312,8 +303,7 @@ const FormalVerification = () => (
                         </Grid>
                     </Grid>
                 </Grid>
-
-                {/* Section 7 */}
+                {/* Section 9 */}
                 <Grid size={12}
                     sx={{ p: 2, bgcolor: 'black', display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderRadius: '10px' }}>
                     <Grid size={{ xs: 12, md: 6 }}>

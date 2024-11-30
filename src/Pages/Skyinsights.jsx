@@ -17,10 +17,9 @@ import detailTxnMonitoring from "../../public/assets//detailTxnMonitoring.svg"
 const Skyinsights = () => {
     return (
         <>
- <Grid sx={{ width: '100%', justifyContent: 'center', display: 'flex', }}>
- <Grid container spacing={3} sx={{ width: '80%', mb: 2 }}>
+            <Grid sx={{ width: '100%', justifyContent: 'center', display: 'flex', }}>
+                <Grid container spacing={3} sx={{ width: '80%', mb: 2 }}>
                     {/* Section 1 */}
-
                     <Grid container size={12} sx={{ border: '1px solid black', bgcolor: '#171921' }}>
                         <Grid container size={{ xs: 12, md: 6 }} >
 
@@ -211,9 +210,7 @@ const Skyinsights = () => {
                         >Start Your Free Trail
                         </Button></Grid>
                     </Grid>
-
                     {/* Section 5*/}
-
                     <Grid size={12} container textAlign={'center'} >
                         <Grid size={12}>
                             <Typography variant='h3' fontWeight={"bold"}>The SkyInsights Platform
@@ -225,9 +222,6 @@ const Skyinsights = () => {
 
                         </Grid>
                     </Grid>
-
-
-
                     {/* Section 6*/}
                     <Grid container size={12}>
 
@@ -269,17 +263,17 @@ const Skyinsights = () => {
 
                             <Grid>
                                 <Typography variant='h6'>
-                                Get to really Know Your Transaction (KYT) with:
+                                    Get to really Know Your Transaction (KYT) with:
 
-24/7 real-time and continuous transaction monitoring.
-Real-time updates to sanctions lists, exploits, hacks, and security incidents.
-Auto-wallet-import API for seamless integration with Web3 dApps.</Typography>
+                                    24/7 real-time and continuous transaction monitoring.
+                                    Real-time updates to sanctions lists, exploits, hacks, and security incidents.
+                                    Auto-wallet-import API for seamless integration with Web3 dApps.</Typography>
                             </Grid>
 
                         </Grid>
 
                     </Grid>
-                    {/* Section 6*/}
+                    {/* Section 8*/}
                     <Grid container size={12}>
 
 
@@ -292,8 +286,8 @@ Auto-wallet-import API for seamless integration with Web3 dApps.</Typography>
                             <Grid>
                                 <Typography variant='h6'>Rule-groups and customer-entity based case management features enable you and your team to:
 
-Prioritize critical cases and efficiently monitor multiple addresses.
-Streamline compliance and AML/CTF rules and rule-groups, reducing unnecessary alerts, decreasing workload, and saving cost.</Typography>
+                                    Prioritize critical cases and efficiently monitor multiple addresses.
+                                    Streamline compliance and AML/CTF rules and rule-groups, reducing unnecessary alerts, decreasing workload, and saving cost.</Typography>
                             </Grid>
 
                         </Grid>
@@ -302,7 +296,7 @@ Streamline compliance and AML/CTF rules and rule-groups, reducing unnecessary al
 
                         </Grid>
                     </Grid>
-                    {/* Section 7 */}
+                    {/* Section 9 */}
                     <Grid container size={12}>
                         <Grid size={{ xs: 12, md: 6 }}>
                             <img src={transactionFlowAnalysis} alt='SkyNode' style={{ width: '100%' }} />
@@ -318,16 +312,15 @@ Streamline compliance and AML/CTF rules and rule-groups, reducing unnecessary al
                             <Grid>
                                 <Typography variant='h6'>Take advantage of forensic investigation tools that allow:
 
-Detailed tracing of cryptocurrency transactions across chains, including bridges and mixers.
-Risk assessments by counterparty and exposure type.
-Easy data exports to enhance reports for compliance and investigation teams.</Typography>
+                                    Detailed tracing of cryptocurrency transactions across chains, including bridges and mixers.
+                                    Risk assessments by counterparty and exposure type.
+                                    Easy data exports to enhance reports for compliance and investigation teams.</Typography>
                             </Grid>
 
                         </Grid>
 
                     </Grid>
-                    {/* Section 5*/}
-
+                    {/* Section 10*/}
                     <Grid size={12} container textAlign={'center'} >
                         <Grid size={12}>
                             <Typography variant='h3' fontWeight={"bold"}>The SkyInsights API
@@ -340,9 +333,7 @@ Easy data exports to enhance reports for compliance and investigation teams.</Ty
 
                         </Grid>
                     </Grid>
-
-
-                    {/* Section 6*/}
+                    {/* Section 11*/}
                     <Grid container size={12}>
 
 
@@ -355,8 +346,8 @@ Easy data exports to enhance reports for compliance and investigation teams.</Ty
                             <Grid>
                                 <Typography variant='h6'>The SkyInsights REST API enables the easy integration of blockchain risk analysis into your compliance processes.
 
-Know Your Address (KYA) API: Rapidly assesses the risk of blockchain addresses.
-Know Your Transaction (KYT) API: Analyze transaction details in real-time, ensuring compliance and mitigating risk.</Typography>
+                                    Know Your Address (KYA) API: Rapidly assesses the risk of blockchain addresses.
+                                    Know Your Transaction (KYT) API: Analyze transaction details in real-time, ensuring compliance and mitigating risk.</Typography>
                             </Grid>
 
                         </Grid>
@@ -365,7 +356,7 @@ Know Your Transaction (KYT) API: Analyze transaction details in real-time, ensur
 
                         </Grid>
                     </Grid>
-                    {/* Section 7 */}
+                    {/* Section 12*/}
                     <Grid container size={12}>
                         <Grid size={{ xs: 12, md: 6 }}>
                             <img src={detailEvidence} alt='SkyNode' style={{ width: '100%' }} />
@@ -380,17 +371,17 @@ Know Your Transaction (KYT) API: Analyze transaction details in real-time, ensur
 
                             <Grid>
                                 <Typography variant='h6'>
-                                SkyInsights delivers tailored risk assessment tools for VASPs and Web3 dApps, combining flexibility with comprehensive security insights.
+                                    SkyInsights delivers tailored risk assessment tools for VASPs and Web3 dApps, combining flexibility with comprehensive security insights.
 
-Customizable reports to fit varied investigative needs, offering different levels of analysis detail.
-Enables the in-depth examination of events and exposures associated with blockchain addresses or cryptocurrency transactions.
-Utilizes evidence-based scoring to communicate risks effectively to decision-makers and stakeholders.</Typography>
+                                    Customizable reports to fit varied investigative needs, offering different levels of analysis detail.
+                                    Enables the in-depth examination of events and exposures associated with blockchain addresses or cryptocurrency transactions.
+                                    Utilizes evidence-based scoring to communicate risks effectively to decision-makers and stakeholders.</Typography>
                             </Grid>
 
                         </Grid>
 
                     </Grid>
-                    {/* Section 6*/}
+                    {/* Section 13*/}
                     <Grid container size={12}>
 
 
@@ -402,10 +393,10 @@ Utilizes evidence-based scoring to communicate risks effectively to decision-mak
 
                             <Grid>
                                 <Typography variant='h6'>
-                                SkyInsights ensures your transactions are safe and compliant with real-time wallet screening and transaction monitoring.
+                                    SkyInsights ensures your transactions are safe and compliant with real-time wallet screening and transaction monitoring.
 
-Provides instant identification of potentially risky transactions.
-Delivers essential data for anti-money laundering and counter-terrorist financing (AML/CFT) compliance and Know Your Transaction (KYT) investigative requirements.</Typography>
+                                    Provides instant identification of potentially risky transactions.
+                                    Delivers essential data for anti-money laundering and counter-terrorist financing (AML/CFT) compliance and Know Your Transaction (KYT) investigative requirements.</Typography>
                             </Grid>
 
                         </Grid>
@@ -414,10 +405,7 @@ Delivers essential data for anti-money laundering and counter-terrorist financin
 
                         </Grid>
                     </Grid>
-
-
-
-                    {/* Section 6 */}
+                    {/* Section 14 */}
                     <Grid size={12}
                         sx={{ p: 2, bgcolor: 'black', display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderRadius: '10px' }}>
                         <Grid size={{ xs: 12, md: 6 }} >
@@ -441,8 +429,7 @@ Delivers essential data for anti-money laundering and counter-terrorist financin
                             Start Your Free Trail
                         </Button></Grid>
                     </Grid>
-
-                    {/* Section 7*/}
+                    {/* Section 15*/}
                     <Grid container size={12}>
                         <Grid container size={12}>
                             <Grid size={12}>
@@ -534,13 +521,6 @@ Delivers essential data for anti-money laundering and counter-terrorist financin
                         </Grid>
                     </Grid>
                 </Grid>
-
-
-
-
-
-
-
             </Grid >
         </>
     );

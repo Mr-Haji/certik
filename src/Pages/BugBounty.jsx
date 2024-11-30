@@ -18,7 +18,6 @@ const BugBounty = () => {
              <Grid sx={{ width: '100%', justifyContent: 'center', display: 'flex', }}>
              <Grid container spacing={3} sx={{ width: '80%', mb: 2 }}>
                     {/* Section 1 */}
-
                     <Grid container size={12} sx={{ border: '1px solid black', bgcolor: '#171921' }}>
                         <Grid container size={{ xs: 12, md: 6 }} >
 
@@ -126,7 +125,6 @@ const BugBounty = () => {
                             </Grid>
                         </Grid>
                     </Grid>
-
                     {/* Sextion 3 */}
                     <Grid size={12}
                         sx={{ p: 2, bgcolor: 'black', display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderRadius: '10px' }}>
@@ -153,7 +151,7 @@ const BugBounty = () => {
                             Start Now
                         </Button></Grid>
                     </Grid>
-                    {/* ss */}
+                    {/* Section 4 */}
                     <Grid container size={12}>
                         <Grid container size={12}>
                             <Grid size={{ xs: 12, md: 6 }}>
@@ -256,7 +254,7 @@ const BugBounty = () => {
                         </Grid>
 
                     </Grid>
-                    {/* s */}
+                    {/* Section 5 */}
                     <Grid size={12}>
                         <Grid>
                             <Grid>
@@ -317,7 +315,7 @@ const BugBounty = () => {
 
                         </Grid>
                     </Grid>
-                    {/* Section 4 */}
+                    {/* Section 6 */}
                     <Grid container size={12}>
 
                         <Grid size={{ xs: 12, md: 6 }}>
@@ -337,7 +335,7 @@ const BugBounty = () => {
 
 
                     </Grid >
-                    {/* Sextion 5 */}
+                    {/* Sextion 7 */}
                     <Grid size={12}
                         sx={{ p: 2, bgcolor: 'black', display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderRadius: '10px' }}>
                         <Grid size={{ xs: 12, md: 6 }} >

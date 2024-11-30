@@ -13,10 +13,9 @@ import incidentResponseFeat1 from "../../public/assets/incidentResponseFeat1.avi
 const IncidentResponse = () => {
     return (
         <>
- <Grid sx={{ width: '100%', justifyContent: 'center', display: 'flex', }}>
- <Grid container spacing={3} sx={{ width: '80%', mb: 2 }}>
+            <Grid sx={{ width: '100%', justifyContent: 'center', display: 'flex', }}>
+                <Grid container spacing={3} sx={{ width: '80%', mb: 2 }}>
                     {/* Section 1 */}
-
                     <Grid container size={12} sx={{ border: '1px solid black', bgcolor: '#171921' }}>
                         <Grid container size={{ xs: 12, md: 6 }} >
 
@@ -149,8 +148,6 @@ const IncidentResponse = () => {
                             Contact Us
                         </Button></Grid>
                     </Grid>
-
-
                     {/* Secftion 4 */}
                     <Grid size={12}>
 
@@ -172,7 +169,6 @@ const IncidentResponse = () => {
 
 
                     </Grid>
-
                     {/* Section 5*/}
                     <Grid container size={12}>
 
@@ -234,7 +230,6 @@ const IncidentResponse = () => {
 
                         </Grid>
                     </Grid>
-
                     {/* Section 8 */}
                     <Grid size={12}>
                         <Grid>
@@ -274,12 +269,11 @@ const IncidentResponse = () => {
 
                         </Grid>
                     </Grid>
-
                     {/* Section 9 */}
                     <Grid size={12}>
                         <Grid container>
-                        <Grid size={{xs:12,md:9}}>
-                                <Typography  variant='h4' fontWeight={"bold"}>
+                            <Grid size={{ xs: 12, md: 9 }}>
+                                <Typography variant='h4' fontWeight={"bold"}>
                                     Interested in more CertiK Incident Response Offerings?
 
                                 </Typography>
@@ -348,14 +342,12 @@ const IncidentResponse = () => {
 
                         </Grid>
                     </Grid>
-
-
-  {/* Section 10 */}
-  <Grid size={12}
+                    {/* Section 10 */}
+                    <Grid size={12}
                         sx={{ p: 2, bgcolor: 'black', display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderRadius: '10px' }}>
                         <Grid size={{ xs: 12, md: 6 }} >
                             <Typography color='white' variant='h4' fontWeight={"bold"}>
-                            Want to hear about our incident Response Offerings?                            </Typography>
+                                Want to hear about our incident Response Offerings?                            </Typography>
                         </Grid>
                         <Grid size={{ xs: 12, md: 3 }}><Button
                             fullWidth

@@ -17,10 +17,9 @@ import KYC1080p from "../../public/assets/KYC1080p.mp4"
 const Kyc = () => {
     return (
         <>
- <Grid sx={{ width: '100%', justifyContent: 'center', display: 'flex', }}>
- <Grid container spacing={3} sx={{ width: '80%', mb: 2 }}>
+            <Grid sx={{ width: '100%', justifyContent: 'center', display: 'flex', }}>
+                <Grid container spacing={3} sx={{ width: '80%', mb: 2 }}>
                     {/* Section 1 */}
-
                     <Grid container size={12} sx={{ border: '1px solid black', bgcolor: '#171921' }}>
                         <Grid container size={{ xs: 12, md: 6 }} >
 
@@ -135,7 +134,6 @@ const Kyc = () => {
                             </Grid>
                         </Grid>
                     </Grid>
-
                     {/* Section 3 */}
                     <Grid size={12}
                         sx={{ p: 2, bgcolor: 'black', display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderRadius: '10px' }}>
@@ -163,7 +161,6 @@ const Kyc = () => {
                             Request A Certik KYC
                         </Button></Grid>
                     </Grid>
-
                     {/* Section 5 */}
                     <Grid size={12}>
                         <Grid>
@@ -206,10 +203,7 @@ const Kyc = () => {
 
                         </Grid>
                     </Grid>
-
-
                     {/* Section 4*/}
-
                     <Grid size={12} container textAlign={'center'} >
                         <Grid size={12}>
                             <Typography variant='h3' fontWeight={"bold"}>The CertiK KYC Process
@@ -225,7 +219,6 @@ const Kyc = () => {
                             <img src={CertiKKYCProcess} alt="Methodology" style={{ width: '100%' }} />
                         </Grid>
                     </Grid>
-
                     {/* Section 7 */}
                     <Grid container size={12}>
 
@@ -263,7 +256,6 @@ const Kyc = () => {
 
                         </Grid>
                     </Grid>
-
                     {/* Section */}
                     <Grid container textAlign={"center"} size={12}>
                         <Grid size={12}>

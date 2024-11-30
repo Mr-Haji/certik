@@ -7,10 +7,9 @@ import experience from "../../public/assets/experience.png"
 const L1ChainAudit = () => {
     return (
         <>
- <Grid sx={{ width: '100%', justifyContent: 'center', display: 'flex', }}>
- <Grid container spacing={3} sx={{ width: '80%', mb: 2 }}>
+            <Grid sx={{ width: '100%', justifyContent: 'center', display: 'flex', }}>
+                <Grid container spacing={3} sx={{ width: '80%', mb: 2 }}>
                     {/* Section 1 */}
-
                     <Grid container size={12} sx={{ border: '1px solid black', bgcolor: '#171921' }}>
                         <Grid container size={{ xs: 12, md: 6 }} >
 
@@ -146,9 +145,6 @@ const L1ChainAudit = () => {
                             Schedule an L1 Chain Audit
                         </Button></Grid>
                     </Grid>
-
-
-
                     {/* Section 4 */}
                     <Grid container size={12}>
 
@@ -212,9 +208,7 @@ const L1ChainAudit = () => {
                             Schedule an L1 Chain Audit
                         </Button></Grid>
                     </Grid>
-
                     {/* Section 7*/}
-
                     <Grid size={12} container textAlign={'center'} >
                         <Grid size={12}>
                             <Typography variant='h3' fontWeight={"bold"}>L1 Chain Audit Process                            </ Typography>
@@ -224,7 +218,6 @@ const L1ChainAudit = () => {
                             <img src={"assets/processEn.webp"} alt='Process En' style={{ width: '100%' }} />
                         </Grid>
                     </Grid>
-
                     {/* Section 8 */}
                     <Grid size={12}>
                         <Grid>
@@ -243,7 +236,6 @@ const L1ChainAudit = () => {
 
                         </Grid>
                     </Grid>
-
                     {/* Section 9 */}
                     <Grid container size={12}>
                         <Grid size={{ xs: 12, md: 6 }}>
@@ -349,13 +341,6 @@ const L1ChainAudit = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-
-
-
-
-
-
-
             </Grid >
         </>
     );

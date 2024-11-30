@@ -1,22 +1,15 @@
 import { Button, Grid2 as Grid, Typography } from '@mui/material';
 import React from 'react';
-// import HeaderPic from "../../public/assets/smartContractAudit.webp"
 import AccurateFindings from "../../public/assets/accurate-findings.svg"
 import UnparalleledFlexibility from "../../public/assets/unparalleled-flexibility.svg"
 import ActionableInsights from "../../public/assets/actionable-insights.svg"
-// import advantagesEn from "../../public/assets/advantagesEn.webp"
-// import smartContractAudit2 from "../../public/assets/smartContractAudit2.webp"
-// import processEn from "../../public/assets/processEn.webp"
-// import stepsEn from "../../public/assets/stepsEn.webp"
-// import auditReport from "../../public/assets/auditReport.webp"
 import experience from "../../public/assets/experience.png"
 const SmartAuditContract = () => {
   return (
     <>
- <Grid sx={{ width: '100%', justifyContent: 'center', display: 'flex', }}>
- <Grid container spacing={3} sx={{ width: '80%', mb: 2 }}>
+      <Grid sx={{ width: '100%', justifyContent: 'center', display: 'flex', }}>
+        <Grid container spacing={3} sx={{ width: '80%', mb: 2 }}>
           {/* Section 1 */}
-
           <Grid container size={12} sx={{ border: '1px solid black', bgcolor: '#171921' }}>
             <Grid container size={{ xs: 12, md: 6 }} >
 
@@ -332,7 +325,6 @@ const SmartAuditContract = () => {
               Schedule an Audit
             </Button></Grid>
           </Grid>
-
           {/* Section 7 */}
           <Grid container size={12}>
             <Grid container spacing={2} size={{ xs: 12, md: 6 }}>
@@ -358,7 +350,6 @@ const SmartAuditContract = () => {
 
           </Grid >
           {/* Section 8*/}
-
           <Grid size={12} container textAlign={'center'} >
             <Grid size={12}>
               <Typography variant='h3' fontWeight={"bold"}>Smart Contract Audit Process
@@ -369,7 +360,6 @@ const SmartAuditContract = () => {
               <img src={"assets/processEn.webp"} alt='Process En' style={{ width: '100%' }} />
             </Grid>
           </Grid>
-
           {/* Section 9 */}
           <Grid size={12}>
             <Grid>
@@ -388,7 +378,6 @@ const SmartAuditContract = () => {
 
             </Grid>
           </Grid>
-
           {/* Section 10 */}
           <Grid container size={12}>
             <Grid size={{ xs: 12, md: 6 }}>
@@ -474,8 +463,6 @@ const SmartAuditContract = () => {
               Schedule an Audit
             </Button></Grid>
           </Grid>
-
-
           {/* Section 13 */}
           <Grid size={12}>
             <Grid>
@@ -486,17 +473,10 @@ const SmartAuditContract = () => {
             </Grid>
             <Grid>
               <img src={experience} alt="Experience" style={{ width: '100%' }} />
-{/* Slider lgna hy */}
+              {/* Slider lgna hy */}
             </Grid>
           </Grid>
         </Grid>
-
-
-
-
-
-
-
       </Grid >
     </>
   );
