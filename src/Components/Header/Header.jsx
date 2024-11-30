@@ -3,7 +3,7 @@ import Logo from "../../Pics/Logo.svg";
 import ResponseIcon from "../../Pics/ResponseIcon.svg";
 import React from "react";
 import { AppBar, Toolbar, Grid, Box, Button } from "@mui/material";
-import ProductsDropdown from './ProductsDropDown';
+import ProductsDropdown from '../ProductsDropdown';
 import { useNavigate } from 'react-router-dom';
 const Header = () => {
     const navigate=useNavigate()
