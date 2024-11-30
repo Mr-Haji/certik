@@ -16,7 +16,7 @@ const CategoryCard = ({ CategoryName, CategoryImage, CategoryId, CategoryDes }) 
             onClick={navigateToNextPage}//navigate to any particlar page
             sx={{
                 border: '1px solid grey',
-         height:'200px',
+                height: '200px',
                 borderRadius: '10px',
                 overflow: 'hidden',
                 cursor: 'pointer',
@@ -44,7 +44,7 @@ const CategoryCard = ({ CategoryName, CategoryImage, CategoryId, CategoryDes }) 
                     {CategoryDes || 'category'}.
                 </Typography>
             </Grid>
-            <Grid sx={{ color: "grey",fontSize:'15px' }} size={12} >
+            <Grid sx={{ color: "grey", fontSize: '15px' }} size={12} >
                 <LinkIcon />
                 <XIcon />
             </Grid>

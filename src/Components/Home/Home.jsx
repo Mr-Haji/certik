@@ -1,8 +1,8 @@
 import { ArrowRightAlt, TextFieldsOutlined } from '@mui/icons-material';
 import { Button, Typography, TextField, Grid2 as Grid } from '@mui/material';
 import React from 'react';
-import smartContractAudit from '../../../public/assets/smart-contracts-graphic.webp';
-import skyInsightsBanner from '../../../public/assets/skyInsightsBanner.webp';
+// import "assets/smart-contracts-graphic.webp" from 'assets/smart-contracts-graphic.webp';
+// import skyInsightsBanner from '../../../public/assets/skyInsightsBanner.webp';
 import HomeTabel from '../../../public/assets/HomeTabel.png';
 import xrpl from '../../../public/assets/xrpl.svg';
 import wemix from '../../../public/assets/wemix.svg';
@@ -100,7 +100,7 @@ const Home = () => {
 
               >
                 <Typography fontWeight={'bold'} >Smart Contract Audit</Typography>
-                <img src={smartContractsGraphic} style={{ width: '100%' }} />
+                <img src={"assets/smartContractsGraphic.webp"} style={{ width: '100%' }} />
               </Grid>
               <Grid size={{ xs: 12, md: 4 }}
                 textAlign="center"
@@ -316,7 +316,7 @@ const Home = () => {
                 }}
               >
                 <Grid>
-                  <img src={smartContractAudit} alt="icon" style={{ width: '30px', height: '30px' }} />
+                  <img src={"assets/smart-contracts-graphic.webp"} alt="icon" style={{ width: '30px', height: '30px' }} />
                 </Grid>
                 <Grid xs sx={{ pl: 2 }}>
                   <Typography fontWeight="bold">Name</Typography>
@@ -334,7 +334,7 @@ const Home = () => {
                 }}
               >
                 <Grid>
-                  <img src={smartContractAudit} alt="icon" style={{ width: '30px', height: '30px' }} />
+                  <img src={"assets/smart-contracts-graphic.webp"} alt="icon" style={{ width: '30px', height: '30px' }} />
                 </Grid>
                 <Grid xs sx={{ pl: 2 }}>
                   <Typography fontWeight="bold">Name</Typography>
@@ -352,7 +352,7 @@ const Home = () => {
                 }}
               >
                 <Grid>
-                  <img src={smartContractAudit} alt="icon" style={{ width: '30px', height: '30px' }} />
+                  <img src={"assets/smart-contracts-graphic.webp"} alt="icon" style={{ width: '30px', height: '30px' }} />
                 </Grid>
                 <Grid xs sx={{ pl: 2 }}>
                   <Typography fontWeight="bold">Name</Typography>
@@ -426,7 +426,7 @@ const Home = () => {
                     height: '120px', // Adjust height for uniformity
                   }}
                 >
-                  {/* <img src={smartContractAudit}  style={{ width: '80px', height: '80px' }} /> */}
+                  {/* <img src={"assets/smart-contracts-graphic.webp"}  style={{ width: '80px', height: '80px' }} /> */}
                   <Typography>{item}</Typography>
                 </Grid>
               ))}
@@ -448,7 +448,7 @@ const Home = () => {
 
               <Grid container alignItems="center">
                 <Grid>
-                  <img src={smartContractAudit} alt="icon" style={{ width: '30px', height: '30px' }} />
+                  <img src={"assets/smart-contracts-graphic.webp"} alt="icon" style={{ width: '30px', height: '30px' }} />
                 </Grid>
                 <Grid xs sx={{ pl: 2 }}>
                   <Typography fontWeight="bold">Name</Typography>
@@ -466,7 +466,7 @@ const Home = () => {
 
               <Grid container alignItems="center">
                 <Grid>
-                  <img src={smartContractAudit} alt="icon" style={{ width: '30px', height: '30px' }} />
+                  <img src={"assets/smart-contracts-graphic.webp"} alt="icon" style={{ width: '30px', height: '30px' }} />
                 </Grid>
                 <Grid xs sx={{ pl: 2 }}>
                   <Typography fontWeight="bold">Name</Typography>
@@ -484,7 +484,7 @@ const Home = () => {
 
               <Grid container alignItems="center">
                 <Grid>
-                  <img src={smartContractAudit} alt="icon" style={{ width: '30px', height: '30px' }} />
+                  <img src={"assets/smart-contracts-graphic.webp"} alt="icon" style={{ width: '30px', height: '30px' }} />
                 </Grid>
                 <Grid xs sx={{ pl: 2 }}>
                   <Typography fontWeight="bold">Name</Typography>
@@ -571,7 +571,7 @@ const Home = () => {
               </Button>
             </Grid>
             <Grid size={{ xs: 12, md: 3 }} >
-              <img src={skyInsightsBanner} alt="icon" style={{ width: '100%' }} />
+              <img src={"assets/skyInsightsBanner.webp"} alt="icon" style={{ width: '100%' }} />
             </Grid>
           </Grid>
 
@@ -655,7 +655,7 @@ export default Home;
 
 //   {/* Right Section (Image Placeholder) */}
 //   <Grid xs={12} md={6} width={"45%"}>
-//     <img src={smartContractAudit} alt="Smart Contract Audit" style={{ width: '100%' }} />
+//     <img src={"assets/smart-contracts-graphic.webp"} alt="Smart Contract Audit" style={{ width: '100%' }} />
 //   </Grid>
 // </Grid>
 
@@ -712,7 +712,7 @@ export default Home;
 //       }}
 //     >
 //       <Grid>
-//         <img src={smartContractAudit} alt="icon" style={{ width: '30px', height: '30px' }} />
+//         <img src={"assets/smart-contracts-graphic.webp"} alt="icon" style={{ width: '30px', height: '30px' }} />
 //       </Grid>
 //       <Grid xs sx={{ pl: 2 }}>
 //         <Typography fontWeight="bold">Name</Typography>
@@ -773,7 +773,7 @@ export default Home;
 //               height: '120px', // Adjust height for uniformity
 //             }}
 //           >
-//             <img src={smartContractAudit}  style={{ width: '80px', height: '80px' }} />
+//             <img src={"assets/smart-contracts-graphic.webp"}  style={{ width: '80px', height: '80px' }} />
 //             <Typography>{item}</Typography>
 //           </Grid>
 //         ))}
@@ -811,7 +811,7 @@ export default Home;
 //         >
 //           <Grid container alignItems="center">
 //             <Grid>
-//               <img src={smartContractAudit} alt="icon" style={{ width: '30px', height: '30px' }} />
+//               <img src={"assets/smart-contracts-graphic.webp"} alt="icon" style={{ width: '30px', height: '30px' }} />
 //             </Grid>
 //             <Grid xs sx={{ pl: 2 }}>
 //               <Typography fontWeight="bold">Name</Typography>
@@ -845,7 +845,7 @@ export default Home;
 //     }}
 //   >
 //     <Grid>
-//       <img src={smartContractAudit} alt="icon" style={{ width: '30px', height: '30px' }} />
+//       <img src={"assets/smart-contracts-graphic.webp"} alt="icon" style={{ width: '30px', height: '30px' }} />
 //     </Grid>
 //     <Grid xs sx={{ pl: 2 }}>
 //       <Typography fontWeight="bold">Name</Typography>
