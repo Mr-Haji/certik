@@ -1,6 +1,6 @@
 import { Search as SearchIcon, LanguageOutlined, ArrowDropDown } from '@mui/icons-material';
-import Logo from "../../Pics/Logo.svg";
-import ResponseIcon from "../../Pics/ResponseIcon.svg";
+import Logo from "../../../public/assets/Logo.svg";
+import ResponseIcon from "../../../public/assets/ResponseIcon.svg";
 import React from "react";
 import { AppBar, Toolbar, Grid, Box, Button } from "@mui/material";
 import ProductsDropdown from '../ProductsDropdown';

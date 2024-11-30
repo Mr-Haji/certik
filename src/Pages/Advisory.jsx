@@ -1,13 +1,13 @@
 import { Button, Grid2 as Grid, Typography } from '@mui/material';
 import React from 'react';
-import SkynetScanCode from "../pics/skynet-scan-code.svg"
-import SkynetDetectRisk from "../pics/skynet-detect-risk.svg"
-import SkynetAccessData from "../pics/skynet-access-data.svg"
-import productTechnicalDueDiligence from "../pics/productTechnicalDueDiligence.svg"
-import productSecurityResearch from "../pics/productSecurityResearch.svg"
-import productWeb3Strategy from "../pics/productWeb3Strategy.svg"
-import cryptoDueDiligenceFrameworks from "../pics/cryptoDueDiligenceFrameworks.svg"
-import productCryptoDueDiligence from "../pics/productCryptoDueDiligence.avif"
+import SkynetScanCode from "../../public/assets/skynet-scan-code.svg"
+import SkynetDetectRisk from "../../public/assets/skynet-detect-risk.svg"
+import SkynetAccessData from "../../public/assets/skynet-access-data.svg"
+import productTechnicalDueDiligence from "../../public/assets/productTechnicalDueDiligence.svg"
+import productSecurityResearch from "../../public/assets/productSecurityResearch.svg"
+import productWeb3Strategy from "../../public/assets/productWeb3Strategy.svg"
+import cryptoDueDiligenceFrameworks from "../../public/assets/cryptoDueDiligenceFrameworks.svg"
+import productCryptoDueDiligence from "../../public/assets/productCryptoDueDiligence.avif"
 const Advisory = () => {
     return (
         <>

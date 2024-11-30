@@ -1,15 +1,15 @@
 import { Button, Grid2 as Grid, Typography } from '@mui/material';
 import React from 'react';
-import productIncidentResponse from "../Pics/productIncidentResponse.avif"
-import productIncidentResponseCoverage from "../Pics/productIncidentResponseCoverage.svg"
-import productIncidentResponseLeading from "../Pics/productIncidentResponseLeading.svg"
-import incidentResponseNum1 from "../Pics/incidentResponseNum1.svg"
-import incidentResponseNum2 from "../Pics/incidentResponseNum2.svg"
-import incidentResponseNum3 from "../Pics/incidentResponseNum3.svg"
-import productIncidentResponseCyber from "../Pics/productIncidentResponseCyber.svg"
-import incidentResponseFeat3 from "../Pics/incidentResponseFeat3.avif"
-import incidentResponseFeat2 from "../Pics/incidentResponseFeat2.avif"
-import incidentResponseFeat1 from "../Pics/incidentResponseFeat1.avif"
+import productIncidentResponse from "../../public/assets/productIncidentResponse.avif"
+import productIncidentResponseCoverage from "../../public/assets/productIncidentResponseCoverage.svg"
+import productIncidentResponseLeading from "../../public/assets/productIncidentResponseLeading.svg"
+import incidentResponseNum1 from "../../public/assets/incidentResponseNum1.svg"
+import incidentResponseNum2 from "../../public/assets/incidentResponseNum2.svg"
+import incidentResponseNum3 from "../../public/assets/incidentResponseNum3.svg"
+import productIncidentResponseCyber from "../../public/assets/productIncidentResponseCyber.svg"
+import incidentResponseFeat3 from "../../public/assets/incidentResponseFeat3.avif"
+import incidentResponseFeat2 from "../../public/assets/incidentResponseFeat2.avif"
+import incidentResponseFeat1 from "../../public/assets/incidentResponseFeat1.avif"
 const IncidentResponse = () => {
     return (
         <>

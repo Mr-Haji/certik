@@ -1,19 +1,19 @@
 import { Button, Grid2 as Grid, Typography } from '@mui/material';
 import React from 'react';
-import SkynetScanCode from "../Pics/skynet-scan-code.svg"
-import SkynetDetectRisk from "../Pics/skynet-detect-risk.svg"
-import SkynetAccessData from "../Pics/skynet-access-data.svg"
-import productTechnicalDueDiligence from "../Pics/productTechnicalDueDiligence.svg"
-import productSecurityResearch from "../Pics/productSecurityResearch.svg"
-import productWeb3Strategy from "../Pics/productWeb3Strategy.svg"
-import skyinsightsHero from "../Pics/skyinsightsHero.avif"
-import kya from "../Pics/kya.svg"
-import kyt from "../Pics/kyt.svg"
-import customizableCaseManagement from "../Pics/customizableCaseManagement.svg"
-import transactionFlowAnalysis from "../Pics/transactionFlowAnalysis.avif"
-import detailKeepAheadCurve from "../Pics/detailKeepAheadCurve.avif"
-import detailEvidence from "../Pics/detailEvidence.avif"
-import detailTxnMonitoring from "../Pics/detailTxnMonitoring.svg"
+import SkynetScanCode from "../../public/assets//skynet-scan-code.svg"
+import SkynetDetectRisk from "../../public/assets//skynet-detect-risk.svg"
+import SkynetAccessData from "../../public/assets//skynet-access-data.svg"
+import productTechnicalDueDiligence from "../../public/assets//productTechnicalDueDiligence.svg"
+import productSecurityResearch from "../../public/assets//productSecurityResearch.svg"
+import productWeb3Strategy from "../../public/assets//productWeb3Strategy.svg"
+import skyinsightsHero from "../../public/assets//skyinsightsHero.avif"
+import kya from "../../public/assets//kya.svg"
+import kyt from "../../public/assets//kyt.svg"
+import customizableCaseManagement from "../../public/assets//customizableCaseManagement.svg"
+import transactionFlowAnalysis from "../../public/assets//transactionFlowAnalysis.avif"
+import detailKeepAheadCurve from "../../public/assets//detailKeepAheadCurve.avif"
+import detailEvidence from "../../public/assets//detailEvidence.avif"
+import detailTxnMonitoring from "../../public/assets//detailTxnMonitoring.svg"
 const Skyinsights = () => {
     return (
         <>

@@ -10,16 +10,16 @@ import CategoryCard from "./CategoryCard.jsx"; // Ensure this component is imple
 import { useNavigate } from "react-router-dom"; // Used for navigation (if needed)
 
 // Importing images
-import LogoAntGroup from "../../Pics/LogoAntGroup.png";
-import LogoLine from "../../Pics/LogoLine.png";
-import LogoOkx from "../../Pics/LogoOkx.png";
-import LogoDelphinusLab from "../../Pics/LogoDelphinusLab.png";
-import LogoApple from "../../Pics/LogoApple.png";
-import LogoSui from "../../Pics/LogoSui.png";
-import LogoTon from "../../Pics/LogoTon.png";
-import LogoSei from "../../Pics/LogoSei.png";
-import LogoSamsung from "../../Pics/LogoSamsung.png";
-import LogoRipple from "../../Pics/LogoRipple.png";
+import LogoAntGroup from "../../../public/assets/LogoAntGroup.png";
+import LogoLine from "../../../public/assets/LogoLine.png";
+import LogoOkx from "../../../public/assets/LogoOkx.png";
+import LogoDelphinusLab from "../../../public/assets/LogoDelphinusLab.png";
+import LogoApple from "../../../public/assets/LogoApple.png";
+import LogoSui from "../../../public/assets/LogoSui.png";
+import LogoTon from "../../../public/assets/LogoTon.png";
+import LogoSei from "../../../public/assets/LogoSei.png";
+import LogoSamsung from "../../../public/assets/LogoSamsung.png";
+import LogoRipple from "../../../public/assets/LogoRipple.png";
 
 // Slider Data
 const SlidesData = [
